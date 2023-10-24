@@ -57,12 +57,23 @@ return arr
       //return the product of the numbers
     
     greaterThan(target) {
+      let targetLarger=(numbers,target)=>{
+        return numbers.map(i=>i>target ? i:'').filter(Boolean)
+          }
+        
+        }
+}
+      
+  
+
+  
+
       //return the numbers greater than the target
-    }
-    howMany(target) {
+    
+    //howMany(target) {
       //return the count of a given number
-    }
-  }
+   //}
+ // }
   
   //Prompt the user for a list of integers separated by commas
   const str = prompt("enter some numbers, like this", "1,2,3,3,5,9");
